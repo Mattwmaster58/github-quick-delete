@@ -4,7 +4,8 @@
 // @version      0.1
 // @description  Delete GitHub repos without confirmations
 // @author       Mattwmaster58
-// @include      /^https:\/\/github\.com/.*/.*/settings/?$/i
+// @include      /^https://github\.com/.*/.*/settings/?$/
+// @updateURL    https://github.com/Mattwmaster58/github-quick-delete/raw/master/githubQuickDelete.user.js
 // ==/UserScript==
 
 let deleteButton = getDeleteButton();
