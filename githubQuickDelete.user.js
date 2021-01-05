@@ -19,6 +19,7 @@ if (deleteButton.innerHTML.search('Delete this repository') === -1) {
     console.log('changing delete button text');
     deleteButton.innerHTML = 'Delete this repository (no confirmation!)';
     deleteButton.onclick = submitDeleteForm;
+    // deleteButton.onkeyup = () => event => {if (event.key === "Enter") {submitDeleteForm();}}
 }
 
 function submitDeleteForm() {
