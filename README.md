@@ -10,3 +10,5 @@ I tried to design the script to make as many checks as possible to prevent it fr
 GitHub UI designers designed the delete dialog the way they did for a reason. If you use this, you're bypassing that and making it easier to accidentally delete a repo (It's not always easy to get it back!). Please be aware of that. 
 
 ### Demo
+
+![Demo](./example.gif)
